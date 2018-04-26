@@ -1,0 +1,28 @@
+
+.ui-dialog {
+    padding: 0;
+}
+
+.ui-widget-header {
+    border: none;
+    background-color: black;
+    border-radius: 0;
+}
+
+.ui-widget.ui-widget-content {
+    width: 750px !important; 
+}
+
+.ui-dialog .ui-dialog-title {
+    color: white;
+    display: block;
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    display: none;
+}
+
+
