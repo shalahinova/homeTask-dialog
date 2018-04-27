@@ -13,6 +13,10 @@
     width: 750px !important; 
 }
 
+.ui-dialog .ui-dialog-content {
+    padding: 40px 90px 160px;
+}
+
 .ui-dialog .ui-dialog-title {
     color: white;
     display: block;
@@ -26,3 +30,16 @@
 }
 
 
+.positionLabel {
+    float: left;
+};
+
+.positionInput {
+    float: right;
+};
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+};
