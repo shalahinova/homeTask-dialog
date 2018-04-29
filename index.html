@@ -11,6 +11,7 @@
   
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
   <script>
   $( function() {
     $( "#dialog" ).dialog({
@@ -31,31 +32,30 @@
   } );
   </script>
 </head>
+
 <body>
  
 <div id="dialog" title="FORGOT YOUR PASSWORD?">
     <form name="contact" action="" method="post">
         
-      <div class="formField">
-          <label class ="positionLabel" for="name">ENTER YOUR <br> EMAIL</label>
-          <input class="positionInput name" id="name" type="text" name="name" placeholder="">
-          <div class="clear"></div>
+      <div class="flexContainer">
+          <label class ="flexBlock labelBox" for="name">ENTER YOUR <br> EMAIL</label>
+          <input class="flexBlock inputBox name" id="name" type="text" name="name" placeholder="">
       </div>
 
-        <div class="formField">
-          <input type="reset" value="RESET PASSWORD">
+        <div>
+          <input class="resetButton" type="reset" value="RESET PASSWORD">
         </div>
 
-        <div>OR</div>
+        <div class="or">OR</div>
 
-        <div class="formField">
-          <a href="#">Log In Using Facebook</a>
+        <div>
+          <a class="fbButton" href="#">Log In Using Facebook</a>
         </div>
   </form>
 </div>
  
 <button id="opener">Open Dialog</button>
- 
- 
+
 </body>
 </html>

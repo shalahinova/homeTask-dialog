@@ -1,3 +1,60 @@
+@font-face {
+    font-family: 'comfortaa';
+    src: url('../fonts/comfortaa.eot');
+    src: url('../fonts/comfortaa.eot') format('embedded-opentype'),
+    url('../fonts/comfortaa.woff2') format('woff2'),
+    url('../fonts/comfortaa.woff') format('woff'),
+    url('../fonts/comfortaa.ttf') format('truetype'),
+    url('../fonts/comfortaa.svg#comfortaa') format('svg');
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.labelBox {
+    flex-basis: 30%;
+    height: 60px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.inputBox {
+    flex-basis: 70%;
+}
+
+.resetButton {
+    border: none;
+    background-color: #b8b8b8;
+    height: 60px;
+    margin: 0 auto 30px;
+    width: 95%;
+    display: block;
+}
+
+.ui-widget input {
+    font-size: 24px;
+}
+
+.or {
+    margin: 0 auto 30px;
+    display: table;
+    font-size: 24px;
+}
+
+.fbButton {
+    text-decoration: none;
+    line-height: 60px;
+    text-align: center;
+    background-color: #4967a6;
+    color: white;
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+    font-size: 24px;
+}
 
 .ui-dialog {
     padding: 0;
@@ -15,6 +72,7 @@
 
 .ui-dialog .ui-dialog-content {
     padding: 40px 90px 160px;
+    font-family: 'comfortaa';
 }
 
 .ui-dialog .ui-dialog-title {
@@ -23,23 +81,18 @@
     float: none;
     text-align: center;
     width: 100%;
+    font-family: 'comfortaa';
+    font-weight: bold;
+    font-size: 24px;
+    margin: 35px 0;
 }
 
 .ui-dialog .ui-dialog-titlebar-close {
     display: none;
 }
 
+.ui-widget-content a {
+    color: white;
+}
 
-.positionLabel {
-    float: left;
-};
 
-.positionInput {
-    float: right;
-};
-
-.clear:after {
-    content: "";
-    display: block;
-    clear: both;
-};
